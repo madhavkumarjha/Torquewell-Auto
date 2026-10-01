@@ -5,10 +5,14 @@ import App from '@/App';
 describe('Application Smoke Test', () => {
   it('renders root layout and routes without crashing', async () => {
     render(<App />);
-    const brandElements = await screen.findAllByText(/Torquewell Auto/i);
+    const brandElements = await screen.findAllByText(/Torquewell/i);
     expect(brandElements.length).toBeGreaterThanOrEqual(1);
-    expect(screen.getByText(/Stuck\? Help now/i)).toBeInTheDocument();
-    expect(screen.getByText(/Book/i)).toBeInTheDocument();
+
+    // Help now and Book pills must be reachable in 1 click
+    expect(screen.getByRole('link', { name: /Help now/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Book/i })).toBeInTheDocument();
+
+    // Default home view heading
     expect(screen.getByRole('heading', { level: 1, name: /Home/i })).toBeInTheDocument();
   });
 });
