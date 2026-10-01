@@ -1,7 +1,7 @@
 # Torquewell Auto — Build Progress
 
 ## Current Phase
-Phase 0 — SETUP ONLY (Completed)
+Phase 1 — Foundation & Help-First (Completed)
 
 ---
 
@@ -19,31 +19,41 @@ Phase 0 — SETUP ONLY (Completed)
   - Created stubs: `README.md`, `SOURCES.md`, `assets/manifest.json`, `.env.example`, `.gitignore`.
   - Verified: install ✔, typecheck ✔, lint ✔, build ✔, dev server boots ✔, tests run ✔.
 
+- **Phase 1 — Foundation & Help-First** (`25c8ba9`)
+  - Built core UI design-system primitives: `Button` (with pill/notched variants), `Badge` (urgency states: Now, Soon, Watch, OK), `Card` (surface elevation, notched tool-tag corner), `Logo` (torque click & 5-point bolt pattern).
+  - Implemented global `Header` with persistent, prominent "Help now" and "Book" pills reachable in 1 click across every route.
+  - Implemented `GlobalControls` (independent Units toggle KM/MI, Language toggle EN/HI, Theme toggle Dark/Light, and Calm Mode toggle).
+  - Implemented `ConsentGate` modal capturing language, units, motion, and local storage consent without external trackers.
+  - Built `FloatingLauncher` on mobile viewports providing instant roadside calling and symptom guide triage.
+  - Implemented comprehensive `Footer` with site map, workshop branch addresses, operating hours, legal policy summaries, and mandatory safety line.
+  - Built dedicated, ultra-fast `Help` page (`/help`) with 1-click dialling, 4-step stop safely checklist, do-not-attempt warnings, operator call guide, recovery transport explainers, EV-specific safety rules, and workshop branch listings.
+  - Added test suite: `tests/help.test.tsx` and updated `tests/smoke.test.tsx` (all 8 tests passing).
+  - Quality gates: typecheck ✔, lint ✔, build ✔, denylist ✔, i18n ✔.
+
 ---
 
 ## Next Phase
-**Phase 1 — Foundation & Help-First**
+**Phase 2 — Brand & Home Hero**
 Scope from File 08:
-- Implement core design-system components and UI building blocks.
-- Build sticky Header with persistent "Stuck? Help now" and "Book" pills, and comprehensive Footer.
-- Implement first-visit Consent Gate and Theme / Language / Units / Calm controls.
-- Build the dedicated `/help` (Stuck? Help now) page with rapid loading and offline readiness.
-- Ensure safety disclaimer line is present everywhere, and Help is reachable within 1 click on every route.
+- Generate complete logo & favicon asset bundle (`logo-primary.svg`, `favicon.svg`, webmanifest, apple touch icons).
+- Implement Home hero section with primary H1 value proposition and 4 quick-route cards (Can I still drive it?, Stuck? Help now, See the proof, Book a check).
+- Implement "Click-through" page transitions with torque tick-scale sweep and subtle settled notch.
+- Build initial page loader with rotating lug-nut ring and tactile click flash.
+- Implement torque-dial cursor follower (with automatic touch and reduced-motion fallback) and vertical click-mark scroll progress ruler.
 
 ---
 
 ## Decisions & Assumptions
-- **Removal of "demo" across project:** Per explicit user directive, all traces of "demo" were purged from the 8 specification files and project setup. Customer persona is defined as Sam Carter (`TW68 AKZ`), demo banners are disabled, and all disclaimers reflect a production garage experience.
-- **Tailwind v4 with `@tailwindcss/vite`:** Configured modern Tailwind v4 `@theme` mappings referencing CSS variables in `tokens.css`.
-- **Testing:** Vitest with jsdom and `@testing-library/react` verifies units conversion/formatting roundtrips and smoke test rendering.
+- **Persistent Pills:** "Help now" and "Book" pills remain sticky and fixed in the header and mobile launcher on every route, guaranteeing ≤ 1-click access from anywhere on the site.
+- **Calm Mode:** Integrated directly into `prefs.ts` and `GlobalControls`; when activated, it immediately disables motion, increases text scaling, and simplifies visuals for stressed users.
+- **Emergency Helpline Styling:** Styled with distinct `--critical` red palette, bold typography, and direct `tel:` linking for immediate single-tap calling.
 
 ---
 
 ## Open Questions / [VERIFY] Items
-- Client to supply production phone numbers (defaults currently set to `+44 800 876 5432` / `+44 800 876 5433`).
-- Specific regional trade body certifications to be linked once client confirms accreditation registration IDs.
+- Client to confirm if a specific local breakdown dispatch partner integration or telephone number is preferred for production.
 
 ---
 
 ## Known Issues
-- None. All quality gates (typecheck, lint, build, test, dev server) pass cleanly with zero warnings or errors.
+- None. Build, lint, typecheck, and test suites are 100% green.
