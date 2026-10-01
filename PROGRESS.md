@@ -1,7 +1,7 @@
 # Torquewell Auto — Build Progress
 
 ## Current Phase
-Phase 3 — Symptom & Warning-Light Guide (Completed)
+Phase 4 — Drive-In to Drive-Out + Home Story (Completed)
 
 ---
 
@@ -50,15 +50,27 @@ Phase 3 — Symptom & Warning-Light Guide (Completed)
   - Created automated test suite `tests/guide.test.tsx` (13 tests green across 5 test suites).
   - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
 
+- **Phase 4 — Drive-In to Drive-Out + Home Story** (`f3fd642`)
+  - Generic car silhouette vector assets created: base blueprint coordinate frame (`public/img/car/base.svg`) and 8 discrete exploded SVG layers in `public/img/car/layers/` (`chassis.svg`, `wheels.svg`, `brakes.svg`, `suspension.svg`, `engine.svg`, `electrics.svg`, `exhaust.svg`, `body.svg`) aligned to a 960x480 canvas.
+  - Authored 9-stage journey dataset in `src/data/drive-story.ts` with checks, milestones, technician actions, and evidence tokens in both English and Hindi.
+  - Built interactive `DriveInStory.tsx` component with stage-driven exploded car layer isolation, animated callout markers, step progress tracker, and interactive layer toggle pills.
+  - Full first-class accessibility: static ordered-list fallback rendered seamlessly when Calm Mode or reduced-motion is enabled, with all verification tokens and checks preserved.
+  - Connected complete Home story flow in `src/routes/Home.tsx` featuring the interactive Drive-In story, Proof Report teaser, Fair-Price model preview, Mileage Map preview, Bay Crew spotlight, EV/Fleet capabilities, and final booking CTA.
+  - Registered all 9 car diagram vector assets in `assets/manifest.json`.
+  - Added unit test suite `tests/story.test.tsx` and updated `tests/setup.ts` and `tests/smoke.test.tsx` (all 16 tests passing across 6 suites).
+  - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
+
 ---
 
 ## Next Phase
-**Phase 4 — Drive-In to Drive-Out + Home story**
+**Phase 5 — Proof Report + Fair-Price Breakdown (Features 03 & 04)**
 Scope from File 08:
-- Generic car silhouette SVG layers (8 layers: chassis, wheels, brakes, suspension, engine, electrics, exhaust, body).
-- GSAP ScrollTrigger pinned scene + story milestones (9 stages) with callouts and evidence chips.
-- Static fallback & mobile tier (ordered list with callouts for reduced-motion and mobile).
-- Integration into Home story flow.
+- Sample inspection report dataset (routine service, brake overhaul, hybrid health).
+- Verdict hero badge + 4-tier urgency classification (Now, Soon, Watch, OK).
+- Inspection photo gallery with high-resolution evidence, zoom/pan simulation, and side-by-side comparison modal (worn vs fresh part).
+- Interactive Fair-Price estimate breakdown with parts-tier selector (TorqueSpec OEM / Quality Alternative / Budget).
+- "Needed now" vs "Deferred" interactive toggles updating line items and subtotal in real time.
+- PDF export simulation & print layout for sample inspection reports.
 
 ---
 
