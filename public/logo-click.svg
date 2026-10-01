@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .rotating-ring {
+        transform-origin: 24px 24px;
+        animation: rotateLug 2.8s cubic-bezier(0.2, 0.9, 0.2, 1) infinite;
+      }
+      .click-tick {
+        animation: clickPulse 2.8s cubic-bezier(0.2, 0.9, 0.2, 1) infinite;
+      }
+    }
+    @keyframes rotateLug {
+      0%, 25% { transform: rotate(0deg); }
+      45%, 85% { transform: rotate(72deg); }
+      95%, 100% { transform: rotate(72deg); }
+    }
+    @keyframes clickPulse {
+      0%, 40% { opacity: 0.3; stroke: #98A2AE; }
+      45%, 65% { opacity: 1; stroke: #C6E84B; filter: drop-shadow(0 0 4px #C6E84B); }
+      75%, 100% { opacity: 0.6; stroke: #C6E84B; filter: none; }
+    }
+  </style>
+
+  <g class="rotating-ring">
+    <circle cx="24" cy="24" r="19" stroke="#C6E84B" stroke-width="2.5" opacity="0.3" />
+    <path d="M 37 11 A 19 19 0 1 1 11 37" stroke="#C6E84B" stroke-width="2.5" stroke-linecap="round" />
+    <!-- 5 Bolt points -->
+    <circle cx="24" cy="9.5" r="2.5" fill="#C6E84B" />
+    <circle cx="36" cy="18.5" r="2.5" fill="#C6E84B" />
+    <circle cx="31.5" cy="33" r="2.5" fill="#C6E84B" />
+    <circle cx="16.5" cy="33" r="2.5" fill="#C6E84B" />
+    <circle cx="12" cy="18.5" r="2.5" fill="#C6E84B" />
+    <!-- Center Needle & Hub -->
+    <path d="M24 24L33 11" stroke="#C6E84B" stroke-width="3" stroke-linecap="round" />
+    <circle cx="24" cy="24" r="5" fill="#121417" stroke="#C6E84B" stroke-width="2.5" />
+  </g>
+
+  <!-- Click Notch indicator -->
+  <line class="click-tick" x1="39" y1="7" x2="43" y2="3" stroke="#C6E84B" stroke-width="3" stroke-linecap="round" />
+</svg>

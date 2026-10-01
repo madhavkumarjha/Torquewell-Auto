@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <style>
+    :root {
+      --fav-bg: #121417;
+      --fav-accent: #C6E84B;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --fav-bg: #F3F1EC;
+        --fav-accent: #5A7410;
+      }
+    }
+  </style>
+  <rect width="48" height="48" rx="10" fill="var(--fav-bg)" />
+  <circle cx="24" cy="24" r="18" stroke="var(--fav-accent)" stroke-width="3" opacity="0.4" />
+  <path d="M 36.7 11.3 A 18 18 0 1 1 11.3 36.7" stroke="var(--fav-accent)" stroke-width="3" stroke-linecap="round" />
+  <!-- 5-Lug Bolt Pattern -->
+  <circle cx="24" cy="11.5" r="2.5" fill="var(--fav-accent)" />
+  <circle cx="35.5" cy="20" r="2.5" fill="var(--fav-accent)" />
+  <circle cx="31.2" cy="34" r="2.5" fill="var(--fav-accent)" />
+  <circle cx="16.8" cy="34" r="2.5" fill="var(--fav-accent)" />
+  <circle cx="12.5" cy="20" r="2.5" fill="var(--fav-accent)" />
+  <!-- Center Torque Dial Needle -->
+  <path d="M24 24L30.5 13.5" stroke="var(--fav-accent)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="24" cy="24" r="4.5" fill="var(--fav-bg)" stroke="var(--fav-accent)" stroke-width="2.5" />
+</svg>

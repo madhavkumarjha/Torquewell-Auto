@@ -1,5 +1,116 @@
 {
   "version": "1.0.0",
   "description": "Asset registry for Torquewell Auto",
-  "assets": []
+  "assets": [
+    {
+      "id": "logo-primary",
+      "path": "public/logo-primary.svg",
+      "prompt": "Torquewell primary logo with 5-point lug-nut bolt ring, needle click-notch, and dual typography",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Torquewell Auto logo with calibrated lug bolt ring and needle click mark",
+        "hi": "टॉर्कवेल ऑटो लोगो - कैलिब्रेटेड व्हील नट और टॉर्क सुई"
+      }
+    },
+    {
+      "id": "logo-mark",
+      "path": "public/logo-mark.svg",
+      "prompt": "Standalone 5-point lug bolt pattern ring and torque needle",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Torquewell Auto emblem",
+        "hi": "टॉर्कवेल ऑटो प्रतीक चिन्ह"
+      }
+    },
+    {
+      "id": "logo-mono-dark",
+      "path": "public/logo-mono-dark.svg",
+      "prompt": "Monochrome light logo for dark graphite surfaces",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Torquewell Auto monochrome dark logo",
+        "hi": "टॉर्कवेल ऑटो मोनोक्रोम डार्क लोगो"
+      }
+    },
+    {
+      "id": "logo-mono-light",
+      "path": "public/logo-mono-light.svg",
+      "prompt": "Monochrome dark ink logo for light paper surfaces",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Torquewell Auto monochrome light logo",
+        "hi": "टॉर्कवेल ऑटो मोनोक्रोम लाइट लोगो"
+      }
+    },
+    {
+      "id": "logo-stacked",
+      "path": "public/logo-stacked.svg",
+      "prompt": "Stacked centered logo layout for vertical headers and badges",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Torquewell Auto stacked logo",
+        "hi": "टॉर्कवेल ऑटो स्टैक्ड लोगो"
+      }
+    },
+    {
+      "id": "logo-click",
+      "path": "public/logo-click.svg",
+      "prompt": "Animated logo mark SVG featuring 72-degree ratchet rotation and tactile click flash",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Animated Torquewell bolt ring ratcheting to verified click",
+        "hi": "एनिमेटेड टॉर्कवेल बोल्ट रिंग क्लिक सत्यापन"
+      }
+    },
+    {
+      "id": "favicon-svg",
+      "path": "public/favicon.svg",
+      "prompt": "Adaptive SVG favicon for browser tabs with dark/light scheme support",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Torquewell Auto adaptive favicon",
+        "hi": "टॉर्कवेल ऑटो फेविकॉन"
+      }
+    },
+    {
+      "id": "hero-01",
+      "path": "public/img/hero/hero-01.svg",
+      "prompt": "Cinematic modern garage bay with vehicle on lift, overhead task lighting, and calibrated torque dial readout",
+      "size": "1920x1080",
+      "status": "ready",
+      "alt": {
+        "en": "Modern independent garage bay with vehicle on lift, overhead task lighting, and calibrated torque dial readout",
+        "hi": "लिफ्ट पर आधुनिक वाहन, वर्कशॉप टास्क लाइट और कैलिब्रेटेड टॉर्क डायल"
+      }
+    },
+    {
+      "id": "pattern-tread",
+      "path": "public/img/pattern/tread.svg",
+      "prompt": "Subtle directional tyre tread pattern tile",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Directional tyre tread pattern texture",
+        "hi": "टायर ट्रेड पैटर्न टेक्सचर"
+      }
+    },
+    {
+      "id": "pattern-ticks",
+      "path": "public/img/pattern/ticks.svg",
+      "prompt": "Calibrated precision torque wrench tick marks pattern",
+      "size": "vector",
+      "status": "ready",
+      "alt": {
+        "en": "Calibrated torque tick marks ruler",
+        "hi": "टॉर्क टिक मार्क्स रूलर"
+      }
+    }
+  ]
 }

@@ -9,10 +9,13 @@ describe('Application Smoke Test', () => {
     expect(brandElements.length).toBeGreaterThanOrEqual(1);
 
     // Help now and Book pills must be reachable in 1 click
-    expect(screen.getByRole('link', { name: /Help now/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /Book/i })).toBeInTheDocument();
+    const helpLinks = screen.getAllByRole('link', { name: /Help now/i });
+    expect(helpLinks.length).toBeGreaterThanOrEqual(1);
+
+    const bookLinks = screen.getAllByRole('link', { name: /Book/i });
+    expect(bookLinks.length).toBeGreaterThanOrEqual(1);
 
     // Default home view heading
-    expect(screen.getByRole('heading', { level: 1, name: /Home/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/The garage that shows the evidence/i);
   });
 });

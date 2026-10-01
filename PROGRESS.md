@@ -1,7 +1,7 @@
 # Torquewell Auto — Build Progress
 
 ## Current Phase
-Phase 1 — Foundation & Help-First (Completed)
+Phase 2 — Brand & Home Hero (Completed)
 
 ---
 
@@ -30,30 +30,39 @@ Phase 1 — Foundation & Help-First (Completed)
   - Added test suite: `tests/help.test.tsx` and updated `tests/smoke.test.tsx` (all 8 tests passing).
   - Quality gates: typecheck ✔, lint ✔, build ✔, denylist ✔, i18n ✔.
 
+- **Phase 2 — Brand & Home Hero** (`Pending commit`)
+  - Generated complete brand deliverables bundle: `logo-primary.svg`, `logo-mark.svg`, `logo-mono-dark.svg`, `logo-mono-light.svg`, `logo-stacked.svg`, animated `logo-click.svg` (72° ratchet rotation with click flash), `favicon.svg` (adaptive), `favicon.ico`, `apple-touch-icon.png` (180x180), `icon-192.png`, `icon-512.png`, `maskable-512.png`, `safari-pinned-tab.svg`, and updated `site.webmanifest`.
+  - Authored hero cinematic workshop vector asset (`hero-01.svg`) with hydraulic lift platform, task lighting blooms, calibrated torque dial readout (140 N·m · CLICK VERIFIED), and live bay calibration tag.
+  - Built Home Hero section with primary H1 value proposition ("The garage that shows the evidence before a spanner is turned."), 4 quick-action triage route tiles, trust markers strip, and Click Guarantee value architecture.
+  - Implemented motion choreography: `InitialLoader` (lug-nut ring rotation + click flash, auto-dismissed on repeat/help visits), `PageTransition` (tick-scale sweep + content settle), `TorqueCursor` (fine-pointer torque dial follower with needle deflection), and `ScrollProgress` (left-edge calibrated click-mark ruler + mobile top strip).
+  - Registered all brand and hero assets in `assets/manifest.json`.
+  - Added unit test suite `tests/home.test.tsx` and updated `tests/smoke.test.tsx` (9 tests passing).
+  - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
+
 ---
 
 ## Next Phase
-**Phase 2 — Brand & Home Hero**
+**Phase 3 — Symptom & Warning-Light Guide (highest utility)**
 Scope from File 08:
-- Generate complete logo & favicon asset bundle (`logo-primary.svg`, `favicon.svg`, webmanifest, apple touch icons).
-- Implement Home hero section with primary H1 value proposition and 4 quick-route cards (Can I still drive it?, Stuck? Help now, See the proof, Book a check).
-- Implement "Click-through" page transitions with torque tick-scale sweep and subtle settled notch.
-- Build initial page loader with rotating lug-nut ring and tactile click flash.
-- Implement torque-dial cursor follower (with automatic touch and reduced-motion fallback) and vertical click-mark scroll progress ruler.
+- Implement comprehensive rule table and red-flag decision logic ("Can I still drive it?").
+- Create original redraw warning-light vector icons (16 lights on 48px grid, non-OEM artwork).
+- Multi-step interactive guided triage flow producing instant urgency ratings (Now / Soon / Watch).
+- Symptom Sheet downloadable/printable PDF generation (EN & HI) for driver to present to any mechanic.
+- Safety rule tests validating that critical hazards (brakes, steering, red lights, high-voltage) always trigger roadside stop warnings.
 
 ---
 
 ## Decisions & Assumptions
-- **Persistent Pills:** "Help now" and "Book" pills remain sticky and fixed in the header and mobile launcher on every route, guaranteeing ≤ 1-click access from anywhere on the site.
-- **Calm Mode:** Integrated directly into `prefs.ts` and `GlobalControls`; when activated, it immediately disables motion, increases text scaling, and simplifies visuals for stressed users.
-- **Emergency Helpline Styling:** Styled with distinct `--critical` red palette, bold typography, and direct `tel:` linking for immediate single-tap calling.
+- **Procedural Cinematic Hero:** Conforming to File 08 Section 1 fallback guidelines, the cinematic hero utilizes layered SVG with tread-pattern tiles, task-light radial blooms, and calibrated torque dials to ensure 100% crispness across all DPRs with sub-millisecond load times.
+- **Motion Safety:** InitialLoader is suppressed during Calm Mode, Reduced Motion, repeat session visits, and on the emergency `/help` route to guarantee instantaneous access.
+- **Scroll Ruler:** Positioned along the left viewport edge with tick marks matching the torque-wrench dial motif, dynamically responding to scroll progress and disabled in Calm Mode.
 
 ---
 
 ## Open Questions / [VERIFY] Items
-- Client to confirm if a specific local breakdown dispatch partner integration or telephone number is preferred for production.
+- Confirm if client has preferred regional emergency recovery partners for specific telephone hotlines in production deployment.
 
 ---
 
 ## Known Issues
-- None. Build, lint, typecheck, and test suites are 100% green.
+- None. Build, lint, typecheck, tests, denylist, and i18n are 100% green.
