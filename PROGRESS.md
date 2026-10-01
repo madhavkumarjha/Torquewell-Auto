@@ -1,7 +1,6 @@
 # Torquewell Auto — Build Progress
-
 ## Current Phase
-Phase 6 — Services, Service Menu & Booking (Completed)
+Phase 7 — Bay Board + Mileage Map (Completed)
 
 ---
 
@@ -74,8 +73,6 @@ Phase 6 — Services, Service Menu & Booking (Completed)
   - Added unit test suites `tests/proof.test.tsx` and `tests/prices.test.tsx` (all 26 tests passing across 8 suites).
   - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
 
----
-
 - **Phase 6 — Services, Service Menu & Booking** (`915fa2e`)
   - Created complete 14 workshop services catalog in `src/data/services.ts` covering Logbook Service, Brakes, Tyres, Suspension, Diagnostics, Clutch, A/C, Battery, Exhaust, Cooling, Hybrid/EV, Pre-Purchase, Inspection Prep, and Fleet, with technical checks, educational signs, and indicative time/price bands.
   - Authored fixed-scope Service Menu packages in `src/data/packages.ts` (Essential Interim, Comprehensive Full, Signature Major) with honest "What is Included" vs "What is NOT Included" transparency and side-by-side comparison criteria matrix.
@@ -87,13 +84,25 @@ Phase 6 — Services, Service Menu & Booking (Completed)
   - Added unit test suites `tests/services.test.tsx`, `tests/menu.test.tsx`, and `tests/book.test.tsx` (all 32 tests passing across 11 suites).
   - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
 
+- **Phase 7 — Bay Board + Mileage Map**
+  - Authored `src/data/bay-board.ts` with 4 active bay repair jobs (`TW68 AKZ`, `TQ21 NXR`, `TW24 HYB`, `TW72 FLT`), technician calibration IDs, live telemetry lines, and 9 journey stage profiles with SMS/Email notification previews.
+  - Authored `src/data/mileage-map.ts` with 18 comprehensive engineering milestones spanning 0 to 160,000 km across Petrol, Diesel, Hybrid, and EV powertrains, including time/distance/condition basis flags, cost bands, consequences of neglect, and "What can safely wait" advice.
+  - Built interactive Bay Board page (`src/routes/Journey.tsx`) featuring 4 active bay cards, progress percentages, elapsed vs total estimated duration, live telemetry logs, "Simulate Bay Progress" step button with real-time toast alerts, customer approval simulator, and high-contrast full-screen TV / Kiosk display mode.
+  - Built 9-Stage Standard Repair Journey interactive accordion drawers on `/journey` with technician owner roles, received deliverables, and customer decision requirements.
+  - Built interactive Mileage Map page (`src/routes/MileageMap.tsx`) with asphalt highway SVG road canvas, dynamic vehicle location indicator, interactive milestone node pins, odometer range slider with quick presets, powertrain switch, and metric/imperial distance unit toggling.
+  - Built `RoadmapPdfModal.tsx` for printable Service Roadmap export and calendar event `.ics` download for any milestone.
+  - Built "The Science of What Can Safely Wait" 3-card educational breakdown (Time-Based, Distance-Based, Condition-Based).
+  - Added unit test suites `tests/journey.test.tsx` and `tests/mileagemap.test.tsx` (all 39 tests passing across 13 suites).
+  - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔.
+
 ---
 
 ## Next Phase
-**Phase 7 — Bay Board + Mileage Map (Features 03 & 08)**
+**Phase 8 — Bay Crew, Locations & Careers (Features 05 & 07)**
 Scope from File 08:
-- Bay Board (`/journey`): live repair stage tracker with drawer inspections, technician owner cards, live updates simulator, and TV full-screen mode.
-- Mileage Map (`/mileage-map`): road path timeline to +100,000 km/mi with powertrain selector, urgency milestones, "What can safely wait" advice, and Service Roadmap PDF / .ics sync.
+- The Bay Crew (`/crew`): top-down workshop bay map with clickable bay hotspots, team hierarchy, role filters, and accessible org chart tree view.
+- Locations & Branches (`/locations`): branch overview, equipment tiers, accessibility specs, EV charging readiness, and opening hours.
+- Careers (`/careers`): technician apprentice progression pathway, calibrated tooling standards, and transparent compensation bands.
 
 ---
 
