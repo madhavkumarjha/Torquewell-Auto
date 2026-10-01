@@ -314,6 +314,70 @@
       "size": "960x480",
       "status": "ready",
       "alt": { "en": "Vehicle body shell and panels layer", "hi": "वाहन बॉडी शेल और पैनल परत" }
+    },
+    {
+      "id": "proof-brake-pad-worn",
+      "path": "public/img/proof/brake-pad-worn.svg",
+      "prompt": "Worn brake pad inspection photo diagram showing 2.5 mm friction compound remaining against 6 mm steel backing plate",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Worn brake pad inspection diagram", "hi": "घिसे हुए ब्रेक पैड का निरीक्षण आरेख" }
+    },
+    {
+      "id": "proof-brake-pad-new",
+      "path": "public/img/proof/brake-pad-new.svg",
+      "prompt": "Brand new brake pad factory benchmark photo diagram showing 12.0 mm friction thickness and chamfered edges",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Brand new brake pad reference diagram", "hi": "नए ब्रेक पैड का संदर्भ आरेख" }
+    },
+    {
+      "id": "proof-brake-disc-worn",
+      "path": "public/img/proof/brake-disc-worn.svg",
+      "prompt": "Worn brake disc rotor cross section diagram showing 20.4 mm thickness and outer lip scoring",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Worn brake disc rotor diagram", "hi": "घिसी हुई ब्रेक डिस्क रोटर आरेख" }
+    },
+    {
+      "id": "proof-brake-disc-new",
+      "path": "public/img/proof/brake-disc-new.svg",
+      "prompt": "Brand new precision ground brake disc rotor diagram showing 24.0 mm nominal thickness",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Brand new brake disc rotor diagram", "hi": "नई ब्रेक डिस्क रोटर आरेख" }
+    },
+    {
+      "id": "proof-tyre-tread-worn",
+      "path": "public/img/proof/tyre-tread-worn.svg",
+      "prompt": "Worn tyre tread cross section diagram showing 3.1 mm depth gauge reading near legal limit",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Worn tyre tread depth gauge diagram", "hi": "घिसे हुए टायर ट्रेड की गहराई का आरेख" }
+    },
+    {
+      "id": "proof-tyre-tread-new",
+      "path": "public/img/proof/tyre-tread-new.svg",
+      "prompt": "Brand new tyre tread cross section diagram showing 8.0 mm deep grooves",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Brand new tyre tread cross section diagram", "hi": "नए टायर ट्रेड की गहराई का आरेख" }
+    },
+    {
+      "id": "proof-battery-test",
+      "path": "public/img/proof/battery-test.svg",
+      "prompt": "Digital conductance battery analyzer screen diagram showing 12.4 V resting voltage and 78 percent SOH",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Digital battery analyzer screen diagram", "hi": "डिजिटल बैटरी विश्लेषक स्क्रीन आरेख" }
+    },
+    {
+      "id": "proof-fluid-test",
+      "path": "public/img/proof/fluid-test.svg",
+      "prompt": "Digital brake fluid boiling tester screen diagram showing 158 degrees C and 3.2 percent moisture",
+      "size": "400x300",
+      "status": "ready",
+      "alt": { "en": "Digital brake fluid tester screen diagram", "hi": "डिजिटल ब्रेक तेल परीक्षक स्क्रीन आरेख" }
     }
   ]
 }

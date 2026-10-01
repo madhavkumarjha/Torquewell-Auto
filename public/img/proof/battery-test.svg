@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Digital battery conductance analyzer screen showing 12.4 V resting voltage and 78% SOH">
+  <rect width="400" height="300" fill="#090d16" />
+  <!-- Handheld Diagnostic Housing -->
+  <rect x="50" y="30" width="300" height="230" rx="16" fill="#1e293b" stroke="#475569" stroke-width="3" />
+  <!-- LCD Screen -->
+  <rect x="75" y="55" width="250" height="150" rx="6" fill="#022c22" stroke="#065f46" stroke-width="2" />
+
+  <text x="90" y="80" fill="#34d399" font-family="monospace" font-size="10">TORQUEWELL LAB CONDUCTANCE v4.2</text>
+  <line x1="90" y1="88" x2="310" y2="88" stroke="#065f46" stroke-width="1" />
+
+  <text x="90" y="115" fill="#6ee7b7" font-family="monospace" font-size="11">VOLTAGE REST:</text>
+  <text x="210" y="115" fill="#34d399" font-family="monospace" font-weight="bold" font-size="16">12.41 V</text>
+
+  <text x="90" y="145" fill="#6ee7b7" font-family="monospace" font-size="11">MEASURED CCA:</text>
+  <text x="210" y="145" fill="#f59e0b" font-family="monospace" font-weight="bold" font-size="16">470 A</text>
+  <text x="90" y="162" fill="#94a3b8" font-family="monospace" font-size="9">(RATED: 600 A CCA EN)</text>
+
+  <text x="90" y="188" fill="#6ee7b7" font-family="monospace" font-size="11">STATE OF HEALTH:</text>
+  <text x="210" y="188" fill="#f59e0b" font-family="monospace" font-weight="bold" font-size="16">78% (WATCH)</text>
+
+  <g transform="translate(100, 230)">
+    <circle cx="20" cy="15" r="5" fill="#f59e0b" />
+    <text x="35" y="19" fill="#fde68a" font-family="monospace" font-size="10">RECHARGE &amp; MONITOR FOR WINTER</text>
+  </g>
+</svg>

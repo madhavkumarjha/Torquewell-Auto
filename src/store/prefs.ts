@@ -127,3 +127,5 @@ export const usePrefsStore = create<PrefsState>((set, get) => {
     },
   };
 });
+
+export const usePrefs = usePrefsStore;

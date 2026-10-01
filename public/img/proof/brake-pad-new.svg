@@ -1,0 +1,59 @@
+<svg viewBox="0 0 400 300" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brand new brake pad reference photo showing 12.0 mm friction material">
+  <defs>
+    <linearGradient id="metal-plate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="friction-new" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <pattern id="grid-new" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="400" height="300" fill="#090d16" />
+  <rect width="400" height="300" fill="url(#grid-new)" />
+
+  <!-- Calibration scale header -->
+  <g opacity="0.6">
+    <line x1="30" y1="35" x2="370" y2="35" stroke="#94a3b8" stroke-width="1" />
+    <path d="M 30 30 L 30 40 M 80 32 L 80 38 M 130 32 L 130 38 M 180 32 L 180 38 M 230 32 L 230 38 M 280 32 L 280 38 M 330 32 L 330 38 M 370 30 L 370 40" stroke="#94a3b8" stroke-width="1" />
+    <text x="30" y="25" fill="#94a3b8" font-family="monospace" font-size="9">FACTORY BENCHMARK SPEC</text>
+    <text x="350" y="25" fill="#94a3b8" font-family="monospace" font-size="9">TORQUESPEC</text>
+  </g>
+
+  <!-- Steel Backing Plate (6 mm) with Anti-squeal shim -->
+  <rect x="70" y="65" width="260" height="42" rx="4" fill="url(#metal-plate)" stroke="#64748b" stroke-width="2" />
+  <rect x="80" y="62" width="240" height="6" rx="2" fill="#0ea5e9" opacity="0.8" />
+  <circle cx="95" cy="86" r="5" fill="#090d16" stroke="#475569" stroke-width="1.5" />
+  <circle cx="305" cy="86" r="5" fill="#090d16" stroke="#475569" stroke-width="1.5" />
+  <text x="130" y="90" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">STEEL BACKING + ANTI-SQUEAL SHIM</text>
+
+  <!-- New Full Friction Layer (12.0 mm) with central dust expansion slot -->
+  <rect x="90" y="107" width="220" height="85" rx="3" fill="url(#friction-new)" stroke="#10b981" stroke-width="2" />
+  
+  <!-- Expansion slot -->
+  <rect x="196" y="107" width="8" height="65" fill="#090d16" />
+  <!-- Chamfers -->
+  <polygon points="90,172 105,192 90,192" fill="#090d16" />
+  <polygon points="310,172 295,192 310,192" fill="#090d16" />
+
+  <!-- Caliper Measurement Callout -->
+  <g transform="translate(325, 107)">
+    <line x1="5" y1="0" x2="25" y2="0" stroke="#10b981" stroke-width="1.5" />
+    <line x1="5" y1="85" x2="25" y2="85" stroke="#10b981" stroke-width="1.5" />
+    <line x1="20" y1="0" x2="20" y2="85" stroke="#10b981" stroke-width="1.5" />
+    
+    <rect x="30" y="28" width="40" height="26" rx="4" fill="#10b981" />
+    <text x="50" y="45" fill="#090d16" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">12.0</text>
+  </g>
+
+  <!-- Spec Tag -->
+  <g transform="translate(40, 235)">
+    <rect width="320" height="38" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <circle cx="20" cy="19" r="6" fill="#10b981" />
+    <text x="36" y="23" fill="#a7f3d0" font-family="sans-serif" font-weight="bold" font-size="11">FACTORY SPEC: 12.0 mm NEW · FULL WEAR MARGIN (OK)</text>
+  </g>
+</svg>
