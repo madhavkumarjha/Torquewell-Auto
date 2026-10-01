@@ -1,0 +1,23 @@
+/* Print styles for Symptom Sheets, Proof Reports, and Estimates */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+
+  nav,
+  footer,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "brandName": "Torquewell Auto",
+  "tagline": "Proof, not promises.",
+  "nav": {
+    "services": "Services",
+    "prices": "Prices",
+    "mileageMap": "Mileage Map",
+    "evHybrid": "EV & Hybrid",
+    "fleet": "Fleet",
+    "knowYourCar": "Know Your Car",
+    "crew": "The Crew",
+    "help": "Stuck? Help now",
+    "book": "Book a check"
+  },
+  "footer": {
+    "safetyLine": "If your vehicle feels unsafe, stop in a safe place and call roadside/emergency services. This website cannot diagnose faults."
+  }
+}

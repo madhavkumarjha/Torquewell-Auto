@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Design Tokens — Torquewell Auto
+   Source: 02_BRAND_DESIGN_SYSTEM.md & 05_MOTION_ANIMATION_SPEC.md
+   ========================================================================== */
+
+:root,
+:root[data-theme='dark'] {
+  /* Dark Theme ("Bay Night" — default) */
+  --bg: #121417;
+  --surface: #1B1E23;
+  --surface-2: #252930;
+  --text: #F0EFEA;
+  --text-muted: #A9AFB8;
+  --line: #30353E;
+  --accent: #C6E84B;
+  --accent-ink: #1A2202;
+  --teal: #3DB7A8;
+  --amber: #F2A93B;
+  --steel: #98A2AE;
+  --critical: #FF5D5D;
+
+  --elevation-shadow: 0 12px 36px -16px rgba(0, 0, 0, 0.55);
+}
+
+:root[data-theme='light'] {
+  /* Light Theme ("Shop Paper") */
+  --bg: #F3F1EC;
+  --surface: #FCFBF8;
+  --surface-2: #E8E5DC;
+  --text: #17191D;
+  --text-muted: #555C67;
+  --line: #D6D2C6;
+  --accent: #5A7410;
+  --accent-ink: #F8FCE8;
+  --teal: #1E7D72;
+  --amber: #A8620A;
+  --steel: #5C6672;
+  --critical: #C12727;
+
+  --elevation-shadow: 0 12px 36px -16px rgba(30, 28, 15, 0.22);
+}
+
+:root {
+  /* Typography */
+  --font-display: 'Familjen Grotesk', system-ui, -apple-system, sans-serif;
+  --font-text: 'Public Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --font-hindi: 'Noto Sans Devanagari', system-ui, sans-serif;
+
+  /* Radius Tokens */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* Spacing Scale (px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 72px;
+  --space-24: 112px;
+  --space-36: 168px;
+
+  /* Motion Tokens (File 05) */
+  --ease-click: cubic-bezier(0.2, 0.9, 0.2, 1);
+  --ease-settle: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-ratchet: steps(6, end);
+  --ease-linear-guide: linear;
+  --ease-out-soft: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --dur-instant: 80ms;
+  --dur-fast: 160ms;
+  --dur-base: 300ms;
+  --dur-slow: 560ms;
+  --dur-cine: 1100ms;
+
+  /* Focus Ring */
+  --focus-ring: 3px solid var(--accent);
+  --focus-offset: 2px;
+}

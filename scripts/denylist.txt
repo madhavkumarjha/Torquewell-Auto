@@ -1,0 +1,27 @@
+# Denylist of terms that must never appear in consumer-facing copy or asset filenames
+# Source: File 01 §5.2 and File 06 §8
+
+# Prohibited trade bodies & marks
+AA Approved
+RAC Approved
+TrustMyGarage
+Good Garage Scheme
+BOSCH Car Service
+
+# Prohibited review platforms
+Trustpilot
+Google Reviews
+Yelp
+TripAdvisor
+
+# Prohibited superlative claims
+cheapest
+lowest price
+guaranteed savings
+100% safe
+best mechanic
+# Note: make names are allowed in plain-text compatibility phrases ('we service most makes')
+# but not with approval claims
+approved dealer
+official partner
+authorised repairer
