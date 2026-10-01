@@ -1,7 +1,7 @@
 # Torquewell Auto — Build Progress
 
 ## Current Phase
-Phase 5 — Proof Report + Fair-Price Breakdown (Completed)
+Phase 6 — Services, Service Menu & Booking (Completed)
 
 ---
 
@@ -76,13 +76,24 @@ Phase 5 — Proof Report + Fair-Price Breakdown (Completed)
 
 ---
 
+- **Phase 6 — Services, Service Menu & Booking** (`915fa2e`)
+  - Created complete 14 workshop services catalog in `src/data/services.ts` covering Logbook Service, Brakes, Tyres, Suspension, Diagnostics, Clutch, A/C, Battery, Exhaust, Cooling, Hybrid/EV, Pre-Purchase, Inspection Prep, and Fleet, with technical checks, educational signs, and indicative time/price bands.
+  - Authored fixed-scope Service Menu packages in `src/data/packages.ts` (Essential Interim, Comprehensive Full, Signature Major) with honest "What is Included" vs "What is NOT Included" transparency and side-by-side comparison criteria matrix.
+  - Implemented standard iCalendar `.ics` generator in `src/lib/ics.ts` with local appointment download.
+  - Built interactive Services listing page (`src/routes/Services.tsx`) with category filtering (Routine, Safety, Powertrain, Specialty) and keyword/symptom search.
+  - Built ServiceDetail deep-dive page (`src/routes/ServiceDetail.tsx`) with breadcrumbs, coverage checklists, symptom indicators, technician lift checks, questions to ask us, and 1-click booking triggers.
+  - Built fixed-scope Service Menu page (`src/routes/Menu.tsx`) with 3 package tiers, honest exclusion lists, and interactive comparison matrix table.
+  - Built 4-step interactive Booking Stepper Wizard (`src/routes/Book.tsx`) with vehicle details, service bay pre-selection, branch/date/slot picker, written authorization consent, verified confirmation pass, and calendar `.ics` download.
+  - Added unit test suites `tests/services.test.tsx`, `tests/menu.test.tsx`, and `tests/book.test.tsx` (all 32 tests passing across 11 suites).
+  - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
+
+---
+
 ## Next Phase
-**Phase 6 — Services, Service Menu & Booking (Features 05/06)**
+**Phase 7 — Bay Board + Mileage Map (Features 03 & 08)**
 Scope from File 08:
-- 14 Services catalog with rich detail pages (`/services` and `/services/:slug`).
-- Service Menu comparison packages (Interim vs Full vs Major).
-- Booking stepper wizard with bay availability, calendar integration (.ics download), and branch selector.
-- Transparent price bands & time duration indicators for every service.
+- Bay Board (`/journey`): live repair stage tracker with drawer inspections, technician owner cards, live updates simulator, and TV full-screen mode.
+- Mileage Map (`/mileage-map`): road path timeline to +100,000 km/mi with powertrain selector, urgency milestones, "What can safely wait" advice, and Service Roadmap PDF / .ics sync.
 
 ---
 
