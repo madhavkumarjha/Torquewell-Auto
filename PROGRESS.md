@@ -1,6 +1,6 @@
 # Torquewell Auto — Build Progress
 ## Current Phase
-Phase 7 — Bay Board + Mileage Map (Completed)
+Phase 8 — Bay Crew, Locations & Careers (Completed)
 
 ---
 
@@ -84,7 +84,7 @@ Phase 7 — Bay Board + Mileage Map (Completed)
   - Added unit test suites `tests/services.test.tsx`, `tests/menu.test.tsx`, and `tests/book.test.tsx` (all 32 tests passing across 11 suites).
   - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
 
-- **Phase 7 — Bay Board + Mileage Map**
+- **Phase 7 — Bay Board + Mileage Map** (`0456a65`)
   - Authored `src/data/bay-board.ts` with 4 active bay repair jobs (`TW68 AKZ`, `TQ21 NXR`, `TW24 HYB`, `TW72 FLT`), technician calibration IDs, live telemetry lines, and 9 journey stage profiles with SMS/Email notification previews.
   - Authored `src/data/mileage-map.ts` with 18 comprehensive engineering milestones spanning 0 to 160,000 km across Petrol, Diesel, Hybrid, and EV powertrains, including time/distance/condition basis flags, cost bands, consequences of neglect, and "What can safely wait" advice.
   - Built interactive Bay Board page (`src/routes/Journey.tsx`) featuring 4 active bay cards, progress percentages, elapsed vs total estimated duration, live telemetry logs, "Simulate Bay Progress" step button with real-time toast alerts, customer approval simulator, and high-contrast full-screen TV / Kiosk display mode.
@@ -95,14 +95,22 @@ Phase 7 — Bay Board + Mileage Map (Completed)
   - Added unit test suites `tests/journey.test.tsx` and `tests/mileagemap.test.tsx` (all 39 tests passing across 13 suites).
   - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔.
 
+- **Phase 8 — Bay Crew, Locations & Careers**
+  - Created `src/data/crew.ts` defining 7 workshop zones and 10 technician personnel spanning Founder, Master Techs, EV Specialists, Apprentices, and Service Advisors, complete with spoken languages and compliance training placeholders.
+  - Created `src/data/branches.ts` documenting 3 regional workshop facilities (Central, North, South EV) with bay counts, operating hours, equipment inventories, DC fast charging specs, and accessibility details.
+  - Created `src/data/careers.ts` detailing 4 culture pillars (Zero upsell commissions, calibrated tool allowance, 100% funded EV sponsorship, 4-day work week), 4-year apprentice progression roadmap, and 4 transparent vacancies with salary bands (£22k–£58k).
+  - Built interactive The Bay Crew page (`src/routes/Crew.tsx`) with blueprint workshop SVG floor plan, accessible `role="tree"` technical hierarchy with keyboard navigation, team search filter, and crew member profile drawer.
+  - Built interactive Workshop Locations page (`src/routes/Locations.tsx`) with regional SVG map, interactive branch pin markers, equipment inspection, and accessibility accommodations.
+  - Built interactive Careers & Apprenticeships page (`src/routes/Careers.tsx`) with 4-year apprentice roadmap year stepper, issued tooling specs, vacancy details, and online application modal with confirmation reference.
+  - Added automated unit test suites `tests/crew.test.tsx`, `tests/locations.test.tsx`, and `tests/careers.test.tsx` (all 48 tests passing across 16 test suites).
+  - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔.
+
 ---
 
 ## Next Phase
-**Phase 8 — Bay Crew, Locations & Careers (Features 05 & 07)**
+**Phase 9 — Garage Portal (Feature 06)**
 Scope from File 08:
-- The Bay Crew (`/crew`): top-down workshop bay map with clickable bay hotspots, team hierarchy, role filters, and accessible org chart tree view.
-- Locations & Branches (`/locations`): branch overview, equipment tiers, accessibility specs, EV charging readiness, and opening hours.
-- Careers (`/careers`): technician apprentice progression pathway, calibrated tooling standards, and transparent compensation bands.
+- Portal Shell (`/portal`): client Sam Carter (`TW68 AKZ`) dashboard, vehicle logbook timeline with evidence attachments, pending approvals (1-click mock authorisation), downloadable invoices, maintenance reminders, and business Fleet management tab.
 
 ---
 
