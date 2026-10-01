@@ -111,6 +111,134 @@
         "en": "Calibrated torque tick marks ruler",
         "hi": "टॉर्क टिक मार्क्स रूलर"
       }
+    },
+    {
+      "id": "light-oil-pressure",
+      "path": "public/img/icons/lights/oil-pressure.svg",
+      "prompt": "Original vector redraw of oil pressure warning light on 48px grid",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Oil pressure warning icon", "hi": "इंजन तेल दबाव आइकन" }
+    },
+    {
+      "id": "light-engine-temp",
+      "path": "public/img/icons/lights/engine-temp.svg",
+      "prompt": "Original vector redraw of engine coolant temperature warning light",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Engine temperature warning icon", "hi": "इंजन तापमान चेतावनी आइकन" }
+    },
+    {
+      "id": "light-brake-system",
+      "path": "public/img/icons/lights/brake-system.svg",
+      "prompt": "Original vector redraw of brake system alert warning icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Brake system alert icon", "hi": "ब्रेक सिस्टम चेतावनी आइकन" }
+    },
+    {
+      "id": "light-battery-charge",
+      "path": "public/img/icons/lights/battery-charge.svg",
+      "prompt": "Original vector redraw of battery alternator charging system",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Battery charging warning icon", "hi": "बैटरी चार्जिंग आइकन" }
+    },
+    {
+      "id": "light-power-steering",
+      "path": "public/img/icons/lights/power-steering.svg",
+      "prompt": "Original vector redraw of power steering assist fault icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Power steering warning icon", "hi": "पावर स्टीयरिंग चेतावनी आइकन" }
+    },
+    {
+      "id": "light-airbag-srs",
+      "path": "public/img/icons/lights/airbag-srs.svg",
+      "prompt": "Original vector redraw of airbag restraint system warning icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Airbag SRS warning icon", "hi": "एयरबैग एसआरएस आइकन" }
+    },
+    {
+      "id": "light-check-engine",
+      "path": "public/img/icons/lights/check-engine.svg",
+      "prompt": "Original vector redraw of check engine malfunction indicator lamp",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Check engine warning icon", "hi": "इंजन जांच आइकन" }
+    },
+    {
+      "id": "light-abs",
+      "path": "public/img/icons/lights/abs.svg",
+      "prompt": "Original vector redraw of antilock braking system warning icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "ABS warning icon", "hi": "एबीएस चेतावनी आइकन" }
+    },
+    {
+      "id": "light-tyre-pressure",
+      "path": "public/img/icons/lights/tyre-pressure.svg",
+      "prompt": "Original vector redraw of tyre pressure monitoring system warning icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Tyre pressure warning icon", "hi": "टायर दबाव चेतावनी आइकन" }
+    },
+    {
+      "id": "light-traction-esp",
+      "path": "public/img/icons/lights/traction-esp.svg",
+      "prompt": "Original vector redraw of electronic stability traction control icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Traction stability icon", "hi": "ट्रैक्शन स्थिरता आइकन" }
+    },
+    {
+      "id": "light-glow-plug",
+      "path": "public/img/icons/lights/glow-plug.svg",
+      "prompt": "Original vector redraw of diesel glow plug preheating icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Glow plug icon", "hi": "ग्लो प्लग आइकन" }
+    },
+    {
+      "id": "light-dpf",
+      "path": "public/img/icons/lights/dpf.svg",
+      "prompt": "Original vector redraw of diesel particulate filter exhaust warning icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "DPF warning icon", "hi": "पार्टिकुलेट फिल्टर आइकन" }
+    },
+    {
+      "id": "light-coolant-level",
+      "path": "public/img/icons/lights/coolant-level.svg",
+      "prompt": "Original vector redraw of radiator coolant level warning icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Coolant level warning icon", "hi": "कूलेंट स्तर आइकन" }
+    },
+    {
+      "id": "light-transmission",
+      "path": "public/img/icons/lights/transmission.svg",
+      "prompt": "Original vector redraw of automatic transmission gearbox alert icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Gearbox alert icon", "hi": "गियरबॉक्स चेतावनी आइकन" }
+    },
+    {
+      "id": "light-ev-high-voltage",
+      "path": "public/img/icons/lights/ev-high-voltage.svg",
+      "prompt": "Original vector redraw of EV high voltage electrical system alert icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "EV electrical warning icon", "hi": "ईवी विद्युत प्रणाली आइकन" }
+    },
+    {
+      "id": "light-service-due",
+      "path": "public/img/icons/lights/service-due.svg",
+      "prompt": "Original vector redraw of scheduled service maintenance due icon",
+      "size": "48x48",
+      "status": "ready",
+      "alt": { "en": "Service due icon", "hi": "सर्विस देय आइकन" }
     }
   ]
 }
