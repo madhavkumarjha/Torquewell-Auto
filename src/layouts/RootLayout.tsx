@@ -29,7 +29,7 @@ export const RootLayout: React.FC = () => {
       <Header />
 
       {/* Page Content with Click-Through Transition */}
-      <main id="main-content" role="main" className="flex-1 w-full">
+      <main id="main-content" role="main" className="flex-1 w-full pt-20 sm:pt-24">
         <PageTransition>
           <Outlet />
         </PageTransition>
