@@ -1,7 +1,7 @@
 # Torquewell Auto — Build Progress
 
 ## Current Phase
-Phase 4 — Drive-In to Drive-Out + Home Story (Completed)
+Phase 5 — Proof Report + Fair-Price Breakdown (Completed)
 
 ---
 
@@ -60,17 +60,29 @@ Phase 4 — Drive-In to Drive-Out + Home Story (Completed)
   - Added unit test suite `tests/story.test.tsx` and updated `tests/setup.ts` and `tests/smoke.test.tsx` (all 16 tests passing across 6 suites).
   - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
 
+- **Phase 5 — Proof Report + Fair-Price Breakdown** (`9894468`)
+  - Created 8 high-fidelity vector inspection diagrams in `public/img/proof/`: worn brake pad (2.5 mm), new brake pad (12.0 mm), worn brake disc rotor (20.4 mm with lip), new precision ground disc (24.0 mm), worn tyre tread (3.1 mm), new tyre tread (8.0 mm), digital battery conductance tester (12.4V / 78% SOH), and digital hydraulic brake fluid boiling tester (158°C).
+  - Authored realistic inspection reports in `src/data/proof-reports.ts` covering 3 vehicles: `TW68 AKZ` (Compact Hatchback), `TQ21 NXR` (Tourer Estate), and `TW24 HYB` (EcoPulse Hybrid) with micrometer measurements, urgency ratings, and bilingual EN/HI findings.
+  - Built interactive `DonutSummary.tsx` SVG chart with center stats, click-to-filter urgency slices, and accessible screen-reader tables.
+  - Built `MeasurementGauge.tsx` illustrating measured values against safe discard limits and nominal specs with delta badges.
+  - Built `PhotoCompareModal.tsx` for side-by-side comparison between the customer's worn component and factory benchmark new parts.
+  - Built `FindingCard.tsx` with "Explain Simply" plain-language toggle, "Show me the part" visual evidence trigger, and deep-link to the Fair-Price calculator.
+  - Built `ProofReportPdfModal.tsx` for clean A4 printing, PDF saving, and clipboard summary copy.
+  - Built transparent `FairPriceEstimator.tsx` in `src/components/prices/` featuring 3 parts tiers (TorqueSpec OE, OE-Equivalent, Quality Aftermarket) with warranty terms, "Only what's needed now" toggle that excludes Soon/Watch items in real time, stacked cost distribution visual (Labour, Parts, Consumables, VAT), line-item calculation table, "What could change this" transparency cards, "What can safely wait" advice, and "5 Questions to Ask Any Garage" consumer protection checklist.
+  - Implemented full routes in `src/routes/Proof.tsx` and `src/routes/Prices.tsx`.
+  - Registered all 8 proof diagram vector assets in `assets/manifest.json`.
+  - Added unit test suites `tests/proof.test.tsx` and `tests/prices.test.tsx` (all 26 tests passing across 8 suites).
+  - Quality gates: typecheck ✔, lint ✔, test ✔, build ✔, check:denylist ✔, check:i18n ✔.
+
 ---
 
 ## Next Phase
-**Phase 5 — Proof Report + Fair-Price Breakdown (Features 03 & 04)**
+**Phase 6 — Services, Service Menu & Booking (Features 05/06)**
 Scope from File 08:
-- Sample inspection report dataset (routine service, brake overhaul, hybrid health).
-- Verdict hero badge + 4-tier urgency classification (Now, Soon, Watch, OK).
-- Inspection photo gallery with high-resolution evidence, zoom/pan simulation, and side-by-side comparison modal (worn vs fresh part).
-- Interactive Fair-Price estimate breakdown with parts-tier selector (TorqueSpec OEM / Quality Alternative / Budget).
-- "Needed now" vs "Deferred" interactive toggles updating line items and subtotal in real time.
-- PDF export simulation & print layout for sample inspection reports.
+- 14 Services catalog with rich detail pages (`/services` and `/services/:slug`).
+- Service Menu comparison packages (Interim vs Full vs Major).
+- Booking stepper wizard with bay availability, calendar integration (.ics download), and branch selector.
+- Transparent price bands & time duration indicators for every service.
 
 ---
 
