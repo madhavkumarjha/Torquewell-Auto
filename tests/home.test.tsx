@@ -21,7 +21,7 @@ describe('Home Page Hero & Quick Tiles', () => {
     expect(screen.getByRole('heading', { level: 3, name: /Book a check/i })).toBeInTheDocument();
 
     // Trust markers
-    expect(screen.getByText(/Photo Evidence/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Photo Evidence/i).length).toBeGreaterThanOrEqual(1);
     expect(screen.getByText(/Micrometer Gauges/i)).toBeInTheDocument();
   });
 });

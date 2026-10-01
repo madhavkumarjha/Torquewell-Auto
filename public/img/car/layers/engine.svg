@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <!-- Transverse Engine Block & Cylinder Head in Bay -->
+  <g transform="translate(190, 200)">
+    <rect x="0" y="0" width="80" height="55" rx="6" fill="#252930" stroke="#C6E84B" stroke-width="2" />
+    <line x1="12" y1="12" x2="68" y2="12" stroke="#98A2AE" stroke-width="3" stroke-linecap="round" />
+    <rect x="15" y="24" width="50" height="24" rx="3" fill="#121417" stroke="#30353E" stroke-width="1.5" />
+    <!-- Cam pulley -->
+    <circle cx="15" cy="12" r="6" fill="#C6E84B" />
+  </g>
+</svg>

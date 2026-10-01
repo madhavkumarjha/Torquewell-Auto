@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <!-- Front Wheel Assembly -->
+  <g transform="translate(255, 275)">
+    <circle cx="0" cy="0" r="54" fill="#14171A" stroke="#30353E" stroke-width="8" />
+    <circle cx="0" cy="0" r="42" fill="#1B1E23" stroke="#98A2AE" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="28" fill="#252930" stroke="#C6E84B" stroke-width="1.5" stroke-dasharray="6 4" />
+    <circle cx="0" cy="0" r="8" fill="#121417" stroke="#C6E84B" stroke-width="2" />
+  </g>
+  <!-- Rear Wheel Assembly -->
+  <g transform="translate(585, 275)">
+    <circle cx="0" cy="0" r="54" fill="#14171A" stroke="#30353E" stroke-width="8" />
+    <circle cx="0" cy="0" r="42" fill="#1B1E23" stroke="#98A2AE" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="28" fill="#252930" stroke="#C6E84B" stroke-width="1.5" stroke-dasharray="6 4" />
+    <circle cx="0" cy="0" r="8" fill="#121417" stroke="#C6E84B" stroke-width="2" />
+  </g>
+</svg>

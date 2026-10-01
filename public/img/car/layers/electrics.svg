@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <!-- 12V Battery, ECU & Wire Harness Routing -->
+  <rect x="150" y="195" width="28" height="22" rx="3" fill="#1B1E23" stroke="#3DB7A8" stroke-width="2" />
+  <path d="M178 206 L280 206 L340 180 L620 180" stroke="#3DB7A8" stroke-width="2" stroke-dasharray="4 4" />
+  <circle cx="340" cy="180" r="4" fill="#3DB7A8" />
+  <circle cx="620" cy="180" r="4" fill="#3DB7A8" />
+</svg>

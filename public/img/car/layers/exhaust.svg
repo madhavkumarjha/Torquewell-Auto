@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <!-- Exhaust Manifold, Cat/DPF, Centre Pipe, and Rear Silencer -->
+  <path d="M260 250 L300 270 L520 270 L650 270 L680 275" stroke="#98A2AE" stroke-width="4" stroke-linecap="round" />
+  <rect x="330" y="264" width="45" height="12" rx="3" fill="#252930" stroke="#98A2AE" stroke-width="1.5" />
+  <rect x="630" y="262" width="40" height="16" rx="4" fill="#252930" stroke="#98A2AE" stroke-width="1.5" />
+</svg>

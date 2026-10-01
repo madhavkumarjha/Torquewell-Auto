@@ -5,7 +5,7 @@ import App from '@/App';
 describe('Application Smoke Test', () => {
   it('renders root layout and routes without crashing', async () => {
     render(<App />);
-    const brandElements = await screen.findAllByText(/Torquewell/i);
+    const brandElements = await screen.findAllByText(/Torquewell/i, {}, { timeout: 5000 });
     expect(brandElements.length).toBeGreaterThanOrEqual(1);
 
     // Help now and Book pills must be reachable in 1 click

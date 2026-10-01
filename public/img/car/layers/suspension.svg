@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <!-- Front MacPherson Strut & Coil Spring -->
+  <g transform="translate(255, 220)">
+    <line x1="0" y1="-30" x2="0" y2="40" stroke="#F2A93B" stroke-width="4" stroke-linecap="round" />
+    <path d="M-8 -20 Q8 -15 -8 -10 Q8 -5 -8 0 Q8 5 -8 10 Q8 15 0 25" stroke="#F2A93B" stroke-width="2.5" fill="none" />
+  </g>
+  <!-- Rear Shock Absorber & Torsion Spring -->
+  <g transform="translate(585, 220)">
+    <line x1="0" y1="-25" x2="0" y2="40" stroke="#F2A93B" stroke-width="4" stroke-linecap="round" />
+    <path d="M-6 -15 Q6 -10 -6 -5 Q6 0 -6 5 Q6 10 0 20" stroke="#F2A93B" stroke-width="2.5" fill="none" />
+  </g>
+</svg>

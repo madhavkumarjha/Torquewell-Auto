@@ -239,6 +239,81 @@
       "size": "48x48",
       "status": "ready",
       "alt": { "en": "Service due icon", "hi": "सर्विस देय आइकन" }
+    },
+    {
+      "id": "car-base",
+      "path": "public/img/car/base.svg",
+      "prompt": "Generic side-elevation automotive silhouette wireframe base on 960x480 coordinate canvas",
+      "size": "960x480",
+      "status": "ready",
+      "alt": {
+        "en": "Generic automotive chassis wireframe diagram",
+        "hi": "सामान्य ऑटोमोटिव चेसिस वायरफ्रेम आरेख"
+      }
+    },
+    {
+      "id": "car-layer-chassis",
+      "path": "public/img/car/layers/chassis.svg",
+      "prompt": "Exploded chassis, ladder rails, and subframe layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Vehicle chassis structure layer", "hi": "वाहन चेसिस संरचना परत" }
+    },
+    {
+      "id": "car-layer-wheels",
+      "path": "public/img/car/layers/wheels.svg",
+      "prompt": "Exploded wheels, rims, and tyre assembly layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Wheel and tyre assembly layer", "hi": "पहिया और टायर असेंबली परत" }
+    },
+    {
+      "id": "car-layer-brakes",
+      "path": "public/img/car/layers/brakes.svg",
+      "prompt": "Exploded brake rotor disc and hydraulic caliper layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Brake discs and caliper layer", "hi": "ब्रेक डिस्क और कैलिपर परत" }
+    },
+    {
+      "id": "car-layer-suspension",
+      "path": "public/img/car/layers/suspension.svg",
+      "prompt": "Exploded coil spring strut and damper suspension layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Suspension strut and spring layer", "hi": "सस्पेंशन स्ट्रट और स्प्रिंग परत" }
+    },
+    {
+      "id": "car-layer-engine",
+      "path": "public/img/car/layers/engine.svg",
+      "prompt": "Exploded powertrain engine block and transmission layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Powertrain engine block layer", "hi": "इंजन ब्लॉक और ट्रांसमिशन परत" }
+    },
+    {
+      "id": "car-layer-electrics",
+      "path": "public/img/car/layers/electrics.svg",
+      "prompt": "Exploded 12V battery, harness, and ECU electrical layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "12V battery and ECU harness layer", "hi": "12V बैटरी और ईसीयू हार्नेस परत" }
+    },
+    {
+      "id": "car-layer-exhaust",
+      "path": "public/img/car/layers/exhaust.svg",
+      "prompt": "Exploded exhaust manifold, catalytic converter, and tailpipe layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Exhaust manifold and muffler layer", "hi": "निकास मैनिफोल्ड और मफलर परत" }
+    },
+    {
+      "id": "car-layer-body",
+      "path": "public/img/car/layers/body.svg",
+      "prompt": "Exploded aerodynamic body shell, greenhouse, and pillar layer diagram",
+      "size": "960x480",
+      "status": "ready",
+      "alt": { "en": "Vehicle body shell and panels layer", "hi": "वाहन बॉडी शेल और पैनल परत" }
     }
   ]
 }
