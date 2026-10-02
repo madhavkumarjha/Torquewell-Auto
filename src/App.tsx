@@ -63,6 +63,8 @@ export default function App() {
             <Route path="locations" element={<Locations />} />
             <Route path="know" element={<KnowYourCar />} />
             <Route path="know/:slug" element={<ArticleDetail />} />
+            <Route path="car" element={<KnowYourCar />} />
+            <Route path="car/:slug" element={<ArticleDetail />} />
             <Route path="portal" element={<Portal />} />
             <Route path="policies" element={<Policies />} />
             <Route path="careers" element={<Careers />} />

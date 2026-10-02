@@ -40,7 +40,7 @@ export default function Crew() {
   });
 
   return (
-    <div className="space-y-10 py-6" role="region" aria-label="The Bay Crew Directory">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 py-8" role="region" aria-label="The Bay Crew Directory">
       {/* Header */}
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-border/40 pb-6">
         <div>

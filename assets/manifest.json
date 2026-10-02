@@ -104,280 +104,200 @@
     {
       "id": "pattern-ticks",
       "path": "public/img/pattern/ticks.svg",
-      "prompt": "Calibrated precision torque wrench tick marks pattern",
+      "prompt": "Calibrated micrometer tick-scale ruler texture pattern",
       "size": "vector",
       "status": "ready",
       "alt": {
-        "en": "Calibrated torque tick marks ruler",
-        "hi": "टॉर्क टिक मार्क्स रूलर"
+        "en": "Calibrated micrometer tick-scale pattern",
+        "hi": "माइक्रोमीटर टिक-स्केल पैटर्न"
       }
-    },
-    {
-      "id": "light-oil-pressure",
-      "path": "public/img/icons/lights/oil-pressure.svg",
-      "prompt": "Original vector redraw of oil pressure warning light on 48px grid",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Oil pressure warning icon", "hi": "इंजन तेल दबाव आइकन" }
-    },
-    {
-      "id": "light-engine-temp",
-      "path": "public/img/icons/lights/engine-temp.svg",
-      "prompt": "Original vector redraw of engine coolant temperature warning light",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Engine temperature warning icon", "hi": "इंजन तापमान चेतावनी आइकन" }
-    },
-    {
-      "id": "light-brake-system",
-      "path": "public/img/icons/lights/brake-system.svg",
-      "prompt": "Original vector redraw of brake system alert warning icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Brake system alert icon", "hi": "ब्रेक सिस्टम चेतावनी आइकन" }
-    },
-    {
-      "id": "light-battery-charge",
-      "path": "public/img/icons/lights/battery-charge.svg",
-      "prompt": "Original vector redraw of battery alternator charging system",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Battery charging warning icon", "hi": "बैटरी चार्जिंग आइकन" }
-    },
-    {
-      "id": "light-power-steering",
-      "path": "public/img/icons/lights/power-steering.svg",
-      "prompt": "Original vector redraw of power steering assist fault icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Power steering warning icon", "hi": "पावर स्टीयरिंग चेतावनी आइकन" }
-    },
-    {
-      "id": "light-airbag-srs",
-      "path": "public/img/icons/lights/airbag-srs.svg",
-      "prompt": "Original vector redraw of airbag restraint system warning icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Airbag SRS warning icon", "hi": "एयरबैग एसआरएस आइकन" }
-    },
-    {
-      "id": "light-check-engine",
-      "path": "public/img/icons/lights/check-engine.svg",
-      "prompt": "Original vector redraw of check engine malfunction indicator lamp",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Check engine warning icon", "hi": "इंजन जांच आइकन" }
-    },
-    {
-      "id": "light-abs",
-      "path": "public/img/icons/lights/abs.svg",
-      "prompt": "Original vector redraw of antilock braking system warning icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "ABS warning icon", "hi": "एबीएस चेतावनी आइकन" }
-    },
-    {
-      "id": "light-tyre-pressure",
-      "path": "public/img/icons/lights/tyre-pressure.svg",
-      "prompt": "Original vector redraw of tyre pressure monitoring system warning icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Tyre pressure warning icon", "hi": "टायर दबाव चेतावनी आइकन" }
-    },
-    {
-      "id": "light-traction-esp",
-      "path": "public/img/icons/lights/traction-esp.svg",
-      "prompt": "Original vector redraw of electronic stability traction control icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Traction stability icon", "hi": "ट्रैक्शन स्थिरता आइकन" }
-    },
-    {
-      "id": "light-glow-plug",
-      "path": "public/img/icons/lights/glow-plug.svg",
-      "prompt": "Original vector redraw of diesel glow plug preheating icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Glow plug icon", "hi": "ग्लो प्लग आइकन" }
-    },
-    {
-      "id": "light-dpf",
-      "path": "public/img/icons/lights/dpf.svg",
-      "prompt": "Original vector redraw of diesel particulate filter exhaust warning icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "DPF warning icon", "hi": "पार्टिकुलेट फिल्टर आइकन" }
-    },
-    {
-      "id": "light-coolant-level",
-      "path": "public/img/icons/lights/coolant-level.svg",
-      "prompt": "Original vector redraw of radiator coolant level warning icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Coolant level warning icon", "hi": "कूलेंट स्तर आइकन" }
-    },
-    {
-      "id": "light-transmission",
-      "path": "public/img/icons/lights/transmission.svg",
-      "prompt": "Original vector redraw of automatic transmission gearbox alert icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Gearbox alert icon", "hi": "गियरबॉक्स चेतावनी आइकन" }
-    },
-    {
-      "id": "light-ev-high-voltage",
-      "path": "public/img/icons/lights/ev-high-voltage.svg",
-      "prompt": "Original vector redraw of EV high voltage electrical system alert icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "EV electrical warning icon", "hi": "ईवी विद्युत प्रणाली आइकन" }
-    },
-    {
-      "id": "light-service-due",
-      "path": "public/img/icons/lights/service-due.svg",
-      "prompt": "Original vector redraw of scheduled service maintenance due icon",
-      "size": "48x48",
-      "status": "ready",
-      "alt": { "en": "Service due icon", "hi": "सर्विस देय आइकन" }
     },
     {
       "id": "car-base",
       "path": "public/img/car/base.svg",
-      "prompt": "Generic side-elevation automotive silhouette wireframe base on 960x480 coordinate canvas",
-      "size": "960x480",
+      "prompt": "Generic unbranded hatchback car coordinate blueprint base silhouette",
+      "size": "vector",
       "status": "ready",
       "alt": {
-        "en": "Generic automotive chassis wireframe diagram",
-        "hi": "सामान्य ऑटोमोटिव चेसिस वायरफ्रेम आरेख"
+        "en": "Generic car coordinate blueprint outline",
+        "hi": "कार की सामान्य ब्लूप्रिंट रूपरेखा"
       }
     },
     {
-      "id": "car-layer-chassis",
+      "id": "car-chassis",
       "path": "public/img/car/layers/chassis.svg",
-      "prompt": "Exploded chassis, ladder rails, and subframe layer diagram",
-      "size": "960x480",
+      "prompt": "Generic car high-strength steel chassis frame floor pan",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Vehicle chassis structure layer", "hi": "वाहन चेसिस संरचना परत" }
+      "alt": {
+        "en": "Chassis structural subframe",
+        "hi": "चेसिस सबफ्रेम"
+      }
     },
     {
-      "id": "car-layer-wheels",
+      "id": "car-wheels",
       "path": "public/img/car/layers/wheels.svg",
-      "prompt": "Exploded wheels, rims, and tyre assembly layer diagram",
-      "size": "960x480",
+      "prompt": "Precision wheel hubs, ventilated disc rotors, and radial tyres",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Wheel and tyre assembly layer", "hi": "पहिया और टायर असेंबली परत" }
+      "alt": {
+        "en": "Wheel hubs and tyres",
+        "hi": "पहिए और टायर"
+      }
     },
     {
-      "id": "car-layer-brakes",
+      "id": "car-brakes",
       "path": "public/img/car/layers/brakes.svg",
-      "prompt": "Exploded brake rotor disc and hydraulic caliper layer diagram",
-      "size": "960x480",
+      "prompt": "Dual-circuit hydraulic brake lines, master cylinder, and calipers",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Brake discs and caliper layer", "hi": "ब्रेक डिस्क और कैलिपर परत" }
+      "alt": {
+        "en": "Brake hydraulic lines and calipers",
+        "hi": "ब्रेक हाइड्रोलिक्स व कैलीपर्स"
+      }
     },
     {
-      "id": "car-layer-suspension",
+      "id": "car-suspension",
       "path": "public/img/car/layers/suspension.svg",
-      "prompt": "Exploded coil spring strut and damper suspension layer diagram",
-      "size": "960x480",
+      "prompt": "Front MacPherson struts, coil springs, and rear multi-link dampers",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Suspension strut and spring layer", "hi": "सस्पेंशन स्ट्रट और स्प्रिंग परत" }
+      "alt": {
+        "en": "Suspension struts and dampers",
+        "hi": "सस्पेंशन स्ट्रट्स और डैम्पर्स"
+      }
     },
     {
-      "id": "car-layer-engine",
+      "id": "car-engine",
       "path": "public/img/car/layers/engine.svg",
-      "prompt": "Exploded powertrain engine block and transmission layer diagram",
-      "size": "960x480",
+      "prompt": "Combustion engine block and transaxle assembly",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Powertrain engine block layer", "hi": "इंजन ब्लॉक और ट्रांसमिशन परत" }
+      "alt": {
+        "en": "Engine powertrain assembly",
+        "hi": "इंजन पावरट्रेन असेंबली"
+      }
     },
     {
-      "id": "car-layer-electrics",
+      "id": "car-electrics",
       "path": "public/img/car/layers/electrics.svg",
-      "prompt": "Exploded 12V battery, harness, and ECU electrical layer diagram",
-      "size": "960x480",
+      "prompt": "12V auxiliary AGM battery, alternator, and wiring harness",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "12V battery and ECU harness layer", "hi": "12V बैटरी और ईसीयू हार्नेस परत" }
+      "alt": {
+        "en": "Electrical wiring harness",
+        "hi": "इलेक्ट्रिकल वायरिंग हार्नेस"
+      }
     },
     {
-      "id": "car-layer-exhaust",
+      "id": "car-exhaust",
       "path": "public/img/car/layers/exhaust.svg",
-      "prompt": "Exploded exhaust manifold, catalytic converter, and tailpipe layer diagram",
-      "size": "960x480",
+      "prompt": "Stainless steel exhaust pipe, catalytic converter, and muffler",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Exhaust manifold and muffler layer", "hi": "निकास मैनिफोल्ड और मफलर परत" }
+      "alt": {
+        "en": "Exhaust emission line",
+        "hi": "एग्जॉस्ट लाइन"
+      }
     },
     {
-      "id": "car-layer-body",
+      "id": "car-body",
       "path": "public/img/car/layers/body.svg",
-      "prompt": "Exploded aerodynamic body shell, greenhouse, and pillar layer diagram",
-      "size": "960x480",
+      "prompt": "Lightweight outer body panels and glass canopy",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Vehicle body shell and panels layer", "hi": "वाहन बॉडी शेल और पैनल परत" }
+      "alt": {
+        "en": "Outer body shell",
+        "hi": "बाहरी बॉडी शेल"
+      }
     },
     {
-      "id": "proof-brake-pad-worn",
-      "path": "public/img/proof/brake-pad-worn.svg",
-      "prompt": "Worn brake pad inspection photo diagram showing 2.5 mm friction compound remaining against 6 mm steel backing plate",
-      "size": "400x300",
+      "id": "proof-pad-worn",
+      "path": "public/img/proof/pad-worn.svg",
+      "prompt": "Macro technical cross-section of severely worn brake pad measuring 2.5 mm",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Worn brake pad inspection diagram", "hi": "घिसे हुए ब्रेक पैड का निरीक्षण आरेख" }
+      "alt": {
+        "en": "Worn brake pad friction lining measured at 2.5 mm",
+        "hi": "घिसा हुआ ब्रेक पैड (2.5 मिमी माप)"
+      }
     },
     {
-      "id": "proof-brake-pad-new",
-      "path": "public/img/proof/brake-pad-new.svg",
-      "prompt": "Brand new brake pad factory benchmark photo diagram showing 12.0 mm friction thickness and chamfered edges",
-      "size": "400x300",
+      "id": "proof-pad-new",
+      "path": "public/img/proof/pad-new.svg",
+      "prompt": "Benchmark brand new factory brake pad measuring 12.0 mm thickness",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Brand new brake pad reference diagram", "hi": "नए ब्रेक पैड का संदर्भ आरेख" }
+      "alt": {
+        "en": "Factory new brake pad measuring 12.0 mm",
+        "hi": "फैक्ट्री नया ब्रेक पैड (12.0 मिमी माप)"
+      }
     },
     {
-      "id": "proof-brake-disc-worn",
-      "path": "public/img/proof/brake-disc-worn.svg",
-      "prompt": "Worn brake disc rotor cross section diagram showing 20.4 mm thickness and outer lip scoring",
-      "size": "400x300",
+      "id": "proof-disc-worn",
+      "path": "public/img/proof/disc-worn.svg",
+      "prompt": "Cast iron brake disc rotor with heavy outer wear lip and 20.4 mm thickness",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Worn brake disc rotor diagram", "hi": "घिसी हुई ब्रेक डिस्क रोटर आरेख" }
+      "alt": {
+        "en": "Worn brake disc with outer lip below discard limit",
+        "hi": "घिसी हुई ब्रेक डिस्क (लिप और न्यूनतम सीमा)"
+      }
     },
     {
-      "id": "proof-brake-disc-new",
-      "path": "public/img/proof/brake-disc-new.svg",
-      "prompt": "Brand new precision ground brake disc rotor diagram showing 24.0 mm nominal thickness",
-      "size": "400x300",
+      "id": "proof-disc-new",
+      "path": "public/img/proof/disc-new.svg",
+      "prompt": "Precision ground ventilated brake disc rotor measuring 24.0 mm",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Brand new brake disc rotor diagram", "hi": "नई ब्रेक डिस्क रोटर आरेख" }
+      "alt": {
+        "en": "New precision ground ventilated brake disc",
+        "hi": "नई वेंटिलेटेड ब्रेक डिस्क"
+      }
     },
     {
-      "id": "proof-tyre-tread-worn",
-      "path": "public/img/proof/tyre-tread-worn.svg",
-      "prompt": "Worn tyre tread cross section diagram showing 3.1 mm depth gauge reading near legal limit",
-      "size": "400x300",
+      "id": "proof-tyre-worn",
+      "path": "public/img/proof/tyre-worn.svg",
+      "prompt": "Worn tyre tread profile measuring 3.1 mm with water evacuation loss",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Worn tyre tread depth gauge diagram", "hi": "घिसे हुए टायर ट्रेड की गहराई का आरेख" }
+      "alt": {
+        "en": "Worn tyre tread profile measuring 3.1 mm",
+        "hi": "घिसा हुआ टायर ट्रेड (3.1 मिमी)"
+      }
     },
     {
-      "id": "proof-tyre-tread-new",
-      "path": "public/img/proof/tyre-tread-new.svg",
-      "prompt": "Brand new tyre tread cross section diagram showing 8.0 mm deep grooves",
-      "size": "400x300",
+      "id": "proof-tyre-new",
+      "path": "public/img/proof/tyre-new.svg",
+      "prompt": "Deep new radial tyre tread profile measuring 8.0 mm",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Brand new tyre tread cross section diagram", "hi": "नए टायर ट्रेड की गहराई का आरेख" }
+      "alt": {
+        "en": "New radial tyre tread profile at 8.0 mm",
+        "hi": "नया टायर ट्रेड (8.0 मिमी)"
+      }
     },
     {
-      "id": "proof-battery-test",
-      "path": "public/img/proof/battery-test.svg",
-      "prompt": "Digital conductance battery analyzer screen diagram showing 12.4 V resting voltage and 78 percent SOH",
-      "size": "400x300",
+      "id": "proof-battery-tester",
+      "path": "public/img/proof/battery-tester.svg",
+      "prompt": "Digital conductance battery tester screen showing 12.4V and 78% SOH",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Digital battery analyzer screen diagram", "hi": "डिजिटल बैटरी विश्लेषक स्क्रीन आरेख" }
+      "alt": {
+        "en": "Digital battery conductance analyzer readout",
+        "hi": "डिजिटल बैटरी विश्लेषक स्क्रीन"
+      }
     },
     {
-      "id": "proof-fluid-test",
-      "path": "public/img/proof/fluid-test.svg",
-      "prompt": "Digital brake fluid boiling tester screen diagram showing 158 degrees C and 3.2 percent moisture",
-      "size": "400x300",
+      "id": "proof-fluid-tester",
+      "path": "public/img/proof/fluid-tester.svg",
+      "prompt": "Digital optical refractometer boiling point tester reading 158°C",
+      "size": "vector",
       "status": "ready",
-      "alt": { "en": "Digital brake fluid tester screen diagram", "hi": "डिजिटल ब्रेक तेल परीक्षक स्क्रीन आरेख" }
+      "alt": {
+        "en": "Digital brake fluid boiling point tester display",
+        "hi": "डिजिटल ब्रेक द्रव क्वथनांक डिस्प्ले"
+      }
     }
   ]
 }

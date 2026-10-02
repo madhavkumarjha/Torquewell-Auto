@@ -243,6 +243,8 @@ export const FairPriceEstimator: React.FC<FairPriceEstimatorProps> = ({
                 >
                   <input
                     type="checkbox"
+                    id={`job-checkbox-${job.id}`}
+                    aria-label={`Select ${job.name[locale]}`}
                     checked={isSelected}
                     onChange={() => {}} // Handled by div click
                     className="mt-1 rounded text-[var(--accent)] focus:ring-[var(--accent)]"

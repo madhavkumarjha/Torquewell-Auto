@@ -97,7 +97,7 @@ export default function Journey() {
       className={`min-h-screen transition-colors duration-300 ${
         isTvMode
           ? 'bg-neutral-950 text-white p-4 md:p-8'
-          : 'bg-background text-foreground space-y-10 py-6'
+          : 'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-background text-foreground space-y-10 py-8'
       }`}
       role="region"
       aria-label="Workshop Bay Board"

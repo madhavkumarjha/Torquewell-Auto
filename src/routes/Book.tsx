@@ -144,10 +144,12 @@ export default function Book() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-reg-plate" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'पंजीकरण संख्या (नंबर प्लेट)' : 'Registration Number Plate'}
                 </label>
                 <input
+                  id="book-reg-plate"
+                  aria-label="Registration Number Plate"
                   type="text"
                   required
                   value={regPlate}
@@ -157,10 +159,12 @@ export default function Book() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-vehicle-model" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'वाहन मॉडल (उदा. TorqueSpec 1.4)' : 'Make & Model'}
                 </label>
                 <input
+                  id="book-vehicle-model"
+                  aria-label="Make & Model"
                   type="text"
                   required
                   value={vehicleModel}
@@ -170,10 +174,12 @@ export default function Book() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-manufacture-year" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'निर्माण वर्ष' : 'Manufacture Year'}
                 </label>
                 <input
+                  id="book-manufacture-year"
+                  aria-label="Manufacture Year"
                   type="number"
                   required
                   value={year}
@@ -183,10 +189,12 @@ export default function Book() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-odometer" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'ओडोमीटर रीडिंग (किमी)' : 'Current Odometer (km)'}
                 </label>
                 <input
+                  id="book-odometer"
+                  aria-label="Current Odometer"
                   type="text"
                   required
                   value={odometer}
@@ -359,10 +367,12 @@ export default function Book() {
             {/* Date and Time Slot */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-date" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'आरक्षण तिथि' : 'Preferred Date'}
                 </label>
                 <input
+                  id="book-date"
+                  aria-label="Preferred Date"
                   type="date"
                   required
                   value={bookingDate}
@@ -372,10 +382,12 @@ export default function Book() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-timeslot" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'प्रारंभिक स्लॉट' : 'Arrival Time Slot'}
                 </label>
                 <select
+                  id="book-timeslot"
+                  aria-label="Arrival Time Slot"
                   value={timeSlot}
                   onChange={(e) => setTimeSlot(e.target.value)}
                   className="w-full px-4 py-2.5 rounded-xl bg-[var(--surface-muted)] border border-[var(--border)] text-[var(--text)] text-sm focus:outline-none focus:ring-1 focus:ring-[var(--accent)]"
@@ -449,10 +461,12 @@ export default function Book() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="sm:col-span-2">
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-customer-name" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'पूरा नाम' : 'Full Name'}
                 </label>
                 <input
+                  id="book-customer-name"
+                  aria-label="Full Name"
                   type="text"
                   required
                   value={customerName}
@@ -462,10 +476,12 @@ export default function Book() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-customer-phone" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'मोबाइल फोन नंबर (एसएमएस अलर्ट)' : 'Mobile Phone (SMS Proof Alerts)'}
                 </label>
                 <input
+                  id="book-customer-phone"
+                  aria-label="Mobile Phone"
                   type="tel"
                   required
                   value={customerPhone}
@@ -475,10 +491,12 @@ export default function Book() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
+                <label htmlFor="book-customer-email" className="block text-xs font-mono text-[var(--text-muted)] uppercase mb-1">
                   {locale === 'hi' ? 'ईमेल पता' : 'Email Address'}
                 </label>
                 <input
+                  id="book-customer-email"
+                  aria-label="Email Address"
                   type="email"
                   required
                   value={customerEmail}

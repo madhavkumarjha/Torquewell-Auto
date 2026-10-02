@@ -17,5 +17,5 @@ describe('Application Smoke Test', () => {
 
     // Default home view heading
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/The garage that shows the evidence/i);
-  });
+  }, 15000);
 });

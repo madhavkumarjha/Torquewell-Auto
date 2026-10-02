@@ -129,3 +129,12 @@ export const usePrefsStore = create<PrefsState>((set, get) => {
 });
 
 export const usePrefs = usePrefsStore;
+
+export function useStore() {
+  const prefs = usePrefsStore();
+  return {
+    ...prefs,
+    language: prefs.locale,
+    setLanguage: prefs.setLocale,
+  };
+}
