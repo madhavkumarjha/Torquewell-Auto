@@ -222,11 +222,10 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-y-0 opacity-80'
                 }`}
               >
-                <img
-                  src="/img/car/layers/chassis.svg"
-                  alt="Vehicle chassis frame layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <path d="M140 270 L660 270 M180 255 L620 255 M240 255 L240 270 M560 255 L560 270" stroke="var(--teal)" strokeWidth="3.5" strokeLinecap="round" />
+                  <rect x="230" y="258" width="340" height="8" rx="2" fill="var(--teal)" fillOpacity="0.3" />
+                </svg>
               </div>
 
               {/* Layer 2: Exhaust System */}
@@ -237,11 +236,11 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-y-0 opacity-60'
                 }`}
               >
-                <img
-                  src="/img/car/layers/exhaust.svg"
-                  alt="Exhaust system layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <path d="M260 270 L340 270 C360 270 380 285 410 285 L560 285 L640 285 L660 290" stroke="var(--steel)" strokeWidth="3" strokeLinecap="round" fill="none" />
+                  <rect x="420" y="278" width="55" height="14" rx="4" fill="var(--steel)" fillOpacity="0.4" stroke="var(--steel)" strokeWidth="1.5" />
+                  <rect x="610" y="278" width="40" height="16" rx="4" fill="var(--steel)" fillOpacity="0.4" stroke="var(--steel)" strokeWidth="1.5" />
+                </svg>
               </div>
 
               {/* Layer 3: Suspension Arms */}
@@ -252,11 +251,12 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-y-0 opacity-70'
                 }`}
               >
-                <img
-                  src="/img/car/layers/suspension.svg"
-                  alt="Suspension coil struts layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <path d="M255 240 L255 275 M245 245 L265 250 M245 255 L265 260 M245 265 L265 270" stroke="var(--teal)" strokeWidth="2.5" strokeLinecap="round" />
+                  <path d="M585 240 L585 275 M575 245 L595 250 M575 255 L595 260 M575 265 L595 270" stroke="var(--teal)" strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="230" y1="275" x2="280" y2="275" stroke="var(--steel)" strokeWidth="3" strokeLinecap="round" />
+                  <line x1="560" y1="275" x2="610" y2="275" stroke="var(--steel)" strokeWidth="3" strokeLinecap="round" />
+                </svg>
               </div>
 
               {/* Layer 4: Brakes & Rotors */}
@@ -267,11 +267,16 @@ export const DriveInStory: React.FC = () => {
                     : 'scale-100 opacity-90'
                 }`}
               >
-                <img
-                  src="/img/car/layers/brakes.svg"
-                  alt="Brake disc rotors and calipers layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <g transform="translate(255, 275)">
+                    <circle cx="0" cy="0" r="34" stroke="var(--steel)" strokeWidth="3" strokeDasharray="4 2" />
+                    <path d="M-24 -24 A32 32 0 0 1 -4 -32" stroke="var(--critical, #FF5D5D)" strokeWidth="10" strokeLinecap="round" />
+                  </g>
+                  <g transform="translate(585, 275)">
+                    <circle cx="0" cy="0" r="30" stroke="var(--steel)" strokeWidth="2.5" />
+                    <path d="M-20 -20 A28 28 0 0 1 -4 -28" stroke="var(--teal)" strokeWidth="8" strokeLinecap="round" />
+                  </g>
+                </svg>
               </div>
 
               {/* Layer 5: Wheels Assembly */}
@@ -282,11 +287,20 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-x-0'
                 }`}
               >
-                <img
-                  src="/img/car/layers/wheels.svg"
-                  alt="Wheel rim and tire assembly layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <g transform="translate(255, 275)">
+                    <circle cx="0" cy="0" r="54" fill="#14171A" stroke="var(--line)" strokeWidth="8" />
+                    <circle cx="0" cy="0" r="42" fill="var(--surface)" stroke="var(--steel)" strokeWidth="1.5" />
+                    <circle cx="0" cy="0" r="28" fill="var(--surface-2)" stroke="var(--accent)" strokeWidth="1.5" strokeDasharray="6 4" />
+                    <circle cx="0" cy="0" r="8" fill="var(--bg)" stroke="var(--accent)" strokeWidth="2" />
+                  </g>
+                  <g transform="translate(585, 275)">
+                    <circle cx="0" cy="0" r="54" fill="#14171A" stroke="var(--line)" strokeWidth="8" />
+                    <circle cx="0" cy="0" r="42" fill="var(--surface)" stroke="var(--steel)" strokeWidth="1.5" />
+                    <circle cx="0" cy="0" r="28" fill="var(--surface-2)" stroke="var(--accent)" strokeWidth="1.5" strokeDasharray="6 4" />
+                    <circle cx="0" cy="0" r="8" fill="var(--bg)" stroke="var(--accent)" strokeWidth="2" />
+                  </g>
+                </svg>
               </div>
 
               {/* Layer 6: Engine & Powertrain */}
@@ -297,11 +311,14 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-y-0 opacity-80'
                 }`}
               >
-                <img
-                  src="/img/car/layers/engine.svg"
-                  alt="Engine cylinder block layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <g transform="translate(190, 200)">
+                    <rect x="0" y="0" width="80" height="55" rx="6" fill="var(--surface-2)" stroke="var(--accent)" strokeWidth="2" />
+                    <line x1="12" y1="12" x2="68" y2="12" stroke="var(--steel)" strokeWidth="3" strokeLinecap="round" />
+                    <rect x="15" y="24" width="50" height="24" rx="3" fill="var(--bg)" stroke="var(--line)" strokeWidth="1.5" />
+                    <circle cx="15" cy="12" r="6" fill="var(--accent)" />
+                  </g>
+                </svg>
               </div>
 
               {/* Layer 7: Electrics & Harness */}
@@ -312,11 +329,12 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-y-0 opacity-60'
                 }`}
               >
-                <img
-                  src="/img/car/layers/electrics.svg"
-                  alt="12V and high-voltage wiring layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <rect x="150" y="195" width="28" height="22" rx="3" fill="var(--surface)" stroke="var(--teal)" strokeWidth="2" />
+                  <path d="M178 206 L280 206 L340 180 L620 180" stroke="var(--teal)" strokeWidth="2" strokeDasharray="4 4" />
+                  <circle cx="340" cy="180" r="4" fill="var(--teal)" />
+                  <circle cx="620" cy="180" r="4" fill="var(--teal)" />
+                </svg>
               </div>
 
               {/* Layer 8: Outer Body & Hood Lift */}
@@ -327,11 +345,11 @@ export const DriveInStory: React.FC = () => {
                     : 'translate-y-0 opacity-95'
                 }`}
               >
-                <img
-                  src="/img/car/layers/body.svg"
-                  alt="Vehicle outer body panels layer"
-                  className="w-full h-full object-contain"
-                />
+                <svg viewBox="0 0 800 400" fill="none" className="w-full h-full object-contain" aria-hidden="true">
+                  <path d="M120 250 C110 250 100 240 100 225 L104 200 C108 170 140 160 180 158 L260 150 C310 150 360 90 440 90 L580 90 C620 90 650 120 670 160 L700 200 C715 220 710 250 690 260 Z" fill="var(--surface)" fillOpacity="0.85" stroke="var(--accent)" strokeWidth="2" />
+                  <line x1="390" y1="150" x2="380" y2="260" stroke="var(--line)" strokeWidth="2" />
+                  <line x1="530" y1="150" x2="520" y2="260" stroke="var(--line)" strokeWidth="2" />
+                </svg>
               </div>
 
               {/* Dynamic Callout Pin Pulsing on Vehicle */}
